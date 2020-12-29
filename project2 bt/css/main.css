@@ -1,0 +1,624 @@
+html{
+
+}
+body {
+	height: 100%;
+	position: relative;
+}
+
+
+.header{
+	width: 100%;
+	height: 750px;
+	
+
+	
+
+
+}
+.navbar-nav{
+	font-family: "Roboto";
+	font-size: 13pt;
+	font-weight: 900;
+	text-transform: uppercase;
+	
+
+}
+nav {
+	
+
+}
+#navbarSupportedContent{
+
+	margin-right: 330px;
+	text-indent: 25px;
+	text-decoration-color: #fff;
+}
+.logo{
+	margin-left: 330px;
+
+
+}
+.nav-link{
+	margin-top: 8px;
+	color: #fff !important;
+}
+.navbar-brand{
+	color: #fff !important;
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 30pt;
+	margin-left: 14px;
+}
+a:hover{
+	color: #00e0d0 !important;
+}
+.carousel{
+	position: absolute;
+	width: 100%;
+	
+}
+.carousel-inner{
+	width: 100%
+
+}
+.carousel-indicators li {
+	
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: none;
+	border: 1px solid #00e0d0;	
+}
+.carousel-indicators .active {
+	background-color: #00e0d0;
+}
+.active{
+	height: 750px;
+}
+.header-text{
+	font-size: 14px;
+}
+.titles { 
+width: 100%;
+position: absolute;
+text-align: center;
+margin:auto;
+margin-top: 144px;
+color: #fff !important;
+}
+.header-title{
+	font-size: 32px;
+	font-family: Playfair Display;
+	font-weight: 900;
+}
+.header-text{
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 14pt;
+	margin-top: 58px;
+	text-indent: 24pt;
+	letter-spacing:0.5px;
+}
+.header-title::after {
+	content: "";
+	display: block;
+	width: 50px;
+	height: 1px;
+	position: absolute;
+	left: 48.4375%;
+	background-color: #00e0d0;
+	margin-top: 27px;
+}
+.btn {
+	font-family: "HammersmithOne";
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	width: 160px;
+	height: 40px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	margin: 30px auto;
+	text-transform: uppercase;
+
+}
+.btn:hover {
+	background: #00e0d0;
+	color: #fff !important;
+}	
+.Story{
+	margin-top: 70px;
+	width: 100%;
+	height: 400px;
+}
+.Telegram{
+	position: absolute;
+	margin-left: 500px;
+}
+.Story h1{
+	font-size: 22pt;
+	font-family: Playfair Display;
+	font-weight: 700;
+}
+.Our-Story {
+	position: absolute;
+	width: 540px;
+	margin-left: 860px;
+}
+.pstory{
+	font-size: 14pt;
+	font-weight: 100;
+	font-family: Roboto;
+	bottom: 35px;
+}
+.pstorys{
+	font-size: 14pt;
+	font-weight: 100;
+	font-family: Roboto;
+}
+#Learn-Story{
+	position: absolute;
+	bottom: -70px;
+}
+.container{
+	height: 550px;
+}
+.VideoStory{
+	position: absolute;
+	width: 100%;
+	height: 550px;
+	background: url("../img/video.png") no-repeat; 
+	background-size: cover;
+
+}
+.VideoPlay{
+	text-align: center;
+}
+.play{
+
+	 display: block;
+    margin-top: 250px;
+}
+.WatchOurStory{
+	font-family:Roboto;
+	text-align: center;
+	font-size:16pt;
+	font-weight:900;
+	margin-top: 35px;
+	color: #fff !important;
+
+}
+#Exprtise{
+	height: 750px;
+
+
+}
+.exph{
+	height: 750px;
+}
+#card{
+	margin-top: 70px;
+}
+#card p{
+font-family: Roboto;
+font-size:14pt;
+font-weight:300;
+margin-top: 25px;
+}
+#card h1{
+font-family: Roboto;
+font-size:14pt;
+font-weight:900;
+margin-top: 25px;
+}
+#Exprtise{
+	margin-top: 70px;
+}
+#Exprtise p{
+	margin-top: 20px;
+}
+#line p::after{
+	content: "";
+	left: 48.4375%;
+	display: block;
+	width: 50px;
+	height: 2px;
+	position: absolute;
+	background-color: #c6c4c9;
+	margin-top: 27px;}
+#line12{
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: #c6c4c9;
+	margin-top: 42px;
+	margin-bottom: 39px;
+}
+.MeetOurTeam{
+	
+	height: 715px;
+	background: url(../img/Team.png);
+	background-size: cover;
+}
+#lineTeam{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	color: #fff !important;
+
+}
+#lineTeam p{
+		font-family: Playfair Display;
+	font-size:14pt;
+	font-weight:400;
+}
+#lineTeam h1{
+		font-family: Playfair Display;
+	font-size:22pt;
+	font-weight:700;
+}
+#lineTeam p::after{
+	content: "";
+	left: 48%;
+	display: block;
+	width: 50px;
+	height: 2px;
+	position: absolute;
+	background-color: #c6c4c9;
+	margin-top: 27px;}
+#NameTeam{
+	text-align: center;
+	color: #fff !important;
+}
+#NameTeam h1{
+	margin-top: 20px;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 14pt;
+
+}
+.teamtext{
+	margin-top: 13px;
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 13pt;
+}
+.NameTeams {
+	margin:auto;
+	width: 230px;
+ 	border: 1px solid #fff;   
+}
+#bweare{
+	margin-top: 35px;
+}
+.teamtext{
+
+font-family: Robot;
+font-weight: 300;
+font-size: 14pt;
+color: #fff !important;
+}
+.teambutton{
+font-family: HammersmithOne;
+font-weight: 
+}
+.ourworks{
+	width: 100%;
+
+	height: 740px;
+}
+.ourworks h1{
+font-family: Playfair Display;
+font-weight: 700;
+font-size: 16pt;
+}
+.ourworks p{
+font-family: Roboto;
+font-weight: 300;
+font-size: 14pt;
+}
+#OW{
+	margin-top: 70px;
+}
+#imgOW{
+	margin-top: 70px;
+	width: 100%;
+	height: 400px;
+}
+.arrow{
+	margin-left: 10px;
+}
+#btnOur p{
+
+	width: 140px;
+font-family: HammersmithOne;
+	font-weight: 400;
+	font-size: 16px;
+}
+#btnOur{
+	margin-top: 70px;
+}
+#LoremC h1{
+	border-top: 0px;
+	margin-top: 0px;
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 100px;
+	color: #fff !important;
+}
+#LoremC p{
+
+	border-top: 0px;
+	margin-top: -20px;
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 16pt;
+	color: #fff !important;
+}
+.Lorem{
+width: 100%;
+height: 500px;
+background: url(../img/bg.png);
+background-size: cover;
+}
+#Jane h1{
+	margin-top: 10px;
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 14pt;
+	color: #fff !important;
+}
+#Jane p{
+	margin-top: 10px;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 13pt;
+	color: #fff !important;
+}
+.scroll{
+	width: 390px;
+	height: 70px;
+
+}
+.carouselExampleControls{
+	margin:0px;
+	width: 390px !important;
+	height: 70px;
+}
+#scrollph{
+	margin-left: 390px;
+
+	
+}
+#buttonscrollph{
+	border:0;
+	width: 390px;
+	height: 70px;
+}
+#carousscroll{
+	align-items: center;
+width: 40px;
+height: 40px;
+}
+#sl_img{
+	position: absolute;
+}
+.slick-slider {
+    margin: 30px auto 50px;
+}
+.center{
+	width: 390px;
+}
+.slick-slide{
+	width: 42px;
+}
+.slick-center{
+
+}
+
+.slick-center img{
+ -webkit-transform: scale(1.55);
+ -moz-transform: scale(1.55);
+ -o-transform: scale(1.55);
+  -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ .slick-center slick-list {
+ 	height: 80px;
+ }
+ .slick-track{
+ 	height:75px;
+ 	margin-top: 17px;
+ }
+ .form-control{
+ 	height: 45px;
+ 	
+ 	
+ }
+ #exampleInputmassage{
+ 	height: 200px;
+ 	resize:none;
+ }
+.btnClient {
+	font-family: "HammersmithOne";
+	font-size: 16px;
+	font-weight: 400;
+	display: block;
+	width: 160px;
+	height: 40px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	margin: 30px auto;
+	text-transform: uppercase;
+	background-color: #fff;
+}
+.btnClient:hover {
+	background: #00e0d0;
+	color: #fff !important;
+}	
+#btnsubmit{
+margin-left: 0px;
+margin-top: 0px;
+}
+#ClientGiv{
+margin-bottom: 120px;
+}
+#ClientGiv h1{
+font-family: Playfair Display;
+font-weight: 900;
+font-size: 22pt;
+margin-top: 70px;
+margin-bottom: 35px;
+}
+#Our-Client h1{
+font-family: Playfair Display;
+font-weight: 900;
+font-size: 22pt;
+margin-top: 70px;
+margin-bottom: 35px;
+}
+#Our-Client{
+
+}
+#Our-Client-Logo img{
+	margin-top: 12px;
+	margin-bottom: 35px;
+
+}
+#Our-Client-Logo2 img{
+	margin-top: 12px;
+	margin-bottom: 35px;
+
+}
+#Our-Client-Logo2{
+margin-top: -445px;
+margin-left: 240px;
+}
+footer{
+
+	margin-top: 120px;
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/imgend.png);
+	background-size: cover;
+}
+#endf{
+	height: 400px;
+}
+.foot-brand{
+	display:inline-block;
+	width: 130px;
+}
+
+#footStay h1{
+	margin-bottom: 57px;
+}
+#footN h1{
+	margin-bottom: 57px;
+}
+#footlogo {
+	margin-top: 75px;
+}
+#footN ,#footStay{
+margin-top: 90px;
+}
+#footlogo a{
+	display : inline;
+
+font-family: Roboto;
+font-size: 30pt;
+font-weight: 100;
+text-decoration: none;
+color:#fff;
+}
+#footlogo a::hover{
+	color: #00e0d0 !important;
+}
+#footlogo p{
+font-family: Roboto;
+font-weight: 300;
+font-size: 14pt;
+color: #fff;
+margin-top: 30px;
+}
+#footlogo h1{
+font-family: Roboto;
+font-weight: 400;
+font-size: 14pt;
+color: #fff;
+margin-top: 30px;
+}
+#footN{
+
+font-family: Roboto;
+font-weight:300;
+font-size: 14pt;
+color: #fff;
+
+}
+.logofoot{
+	margin-left: 10px;
+	box-sizing:cover;
+}
+#footN img{
+
+margin-top: 5px;
+
+}
+#footN h1{
+
+font-family: Roboto;
+font-weight:900;
+font-size: 15pt;
+color: #fff;
+
+}
+#exampleInputSubscribe{
+	width: 210px;
+	color: #fff;
+	background-color: rgba(0, 125, 215, 0);
+	margin-right: 10px;
+}
+#footStay h1{
+font-family: Roboto;
+font-weight:900;
+font-size: 15pt;
+color: #fff;
+
+}
+
+.Sub{
+	text-decoration: none;
+}
+.foottt button{
+	border: none; 
+	
+	background-color: rgba(0, 125, 215, 0);
+}
+.foottt{
+	margin-bottom: 24px;
+}
+.imgsoc{
+
+
+}
+.SubSoc{
+		border: none; 
+	
+	background-color: rgba(0, 125, 215, 0);
+	
+}
+.Cop p{
+font-family: Roboto;
+font-weight: 400;
+font-size: 14pt;
+color: #fff;
+
+}
+.Cop{
+	margin-top: 70px;
+}
+.HELP{
+	margin-right: 10px;
+}
